@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Switcher</title>
+  </head>
+<body>
+
+<style>
+
+*{
+	list-style: none;
+	box-sizing; border-box
+}
+
+li{
+	border: 2px solid black;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px
+
+}
+
+.green {
+	background-color: green;
+}
+
+.salmon {
+	background-color: salmon
+
+}
+
+.purple {
+	background-color: purple;
+
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.teal {
+	background-color: teal;
+
+}
+}
+</style>
+
+<ul>
+ <li class="green"></li>
+ <li class="salmon"></li>
+ <li class="purple"></li>
+ <li class="yellow"></li>
+ <li calss="pink"></li>
+ <li class="teal"></li>
+ </ul>
+
+ <hl>Color Switcher</hl>
+ <p>Click on a color swatch to change the page color!</p>
+
+
+</body>
+
+<script>
+
+var body = document.querySelector("body")
+var green = document.querySelector(".green")
+var salmon = document
+
+function hello (){
+	alert("Hello!")
+}
+
+
+function turnBodyGreen() {
+	 body.setAttribute("class","green")
+
+}
+
+var list = document.querySelector("ul")
+var body = document.querySelector("body")
+
+function changeColor(event){
+	console.log(event)
+}
+</script>
+
+</html>
